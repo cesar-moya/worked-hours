@@ -1,0 +1,14 @@
+
+/*
+input[type="button"]
+*/
+
+button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+    width: 75%;
+    height: 50px;
+    background-color: indigo;
+    color: white;
+}
