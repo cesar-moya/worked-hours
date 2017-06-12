@@ -1,8 +1,8 @@
 # worked-hours
 
-**Clone and run for a quick way to see Electron in action.**
+**How much do you actually code in a day?**
 
-Description here
+This app helps you track how many hours you actually spend coding vs doing other stuff (like attending meetings)
 
 ## To Use
 

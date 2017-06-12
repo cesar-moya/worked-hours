@@ -10,7 +10,9 @@ btn.addEventListener('click', () => {
     msg.style = "border: 1px solid black;";
     msg.innerHTML = "Some message here";
     document.body.appendChild(msg);
-
     
+
 }, false);
+
+
 
