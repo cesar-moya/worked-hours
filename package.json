@@ -1,0 +1,24 @@
+{
+  "name": "worked-hours",
+  "version": "1.0.0",
+  "description": "Track how many hours you spend working",
+  "main": "main.js",
+  "scripts": {
+    "build": "rimraf worked-hours-* && electron-packager . --platform=darwin,win32,linux --arch=x64 --icon=app",
+    "start": "electron ."
+  },
+  "repository": "https://github.com/odindarkester/worked-hours",
+  "keywords": [
+    "Electron",
+    "worked",
+    "hours",
+    "coding"
+  ],
+  "author": "Cesar Moya",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "electron-packager": "^8.7.1",
+    "rimraf": "^2.6.1"
+  }
+}

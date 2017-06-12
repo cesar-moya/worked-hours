@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Worked Hours</title>
+  </head>
+  <body>
+    <h1>Worked hours</h1>
+    <hr>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    <input name="workType" id="coding" type="radio" checked>
+    <label for="coding">Coding</label>
+    <input name="workType" id="meetings" type="radio">
+    <label for="meetings">Meetings</label>
+    <input name="workType" id="other" type="radio">
+    <label for="other">Other</label>
+    <br />
+    <br />
+    <input id="btnToggle" type="button" value="Click to start">
+    <hr>
+    <br>
+    <h3>You have spent {} hours Coding</h3>
+    <h3>You have spent {} hours on Meetings</h3>
+    <h3>You have spent {} hours on Other</h3>
+    <!--We are using Node.js <script>document.write(process.versions.node)</script>,
+    Chromium <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>.-->
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</html>
